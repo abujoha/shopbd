@@ -1,0 +1,273 @@
+body{
+	margin: 0px;
+	padding:0px;
+}
+
+#header_top{
+	width: 100%;
+	background-color:#1b1b18; 
+	margin:0 auto;
+	color: green;
+	height: 35px;
+	
+}
+
+#header_top ul li{
+	list-style: none;
+	float: right;
+	padding-right: 25px;
+	margin-top: 5px;
+	
+
+}
+#header_top ul li a{
+	text-decoration: none;
+	color: green;
+	
+
+}
+#header{
+	background-color: #FFF;
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+	overflow: hidden;
+
+}
+
+#logo{
+	width: 150px;
+	float: left;
+}
+
+#logo img{
+	margin: 10px;
+	width: 100%;
+}
+
+.shipping{
+	width: 200px;
+	float: left;
+	margin-left:40px;
+
+}
+
+.shipping a{
+	color: black;
+	text-decoration: none;
+
+}
+
+.shipping a:hover{
+	color: red;
+
+}
+
+.Shopping_Cart{
+	float: right;
+}
+
+.Shopping_Cart a{
+	color: black;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.Shopping_Cart a:hover{
+	color: red;
+}
+
+.menu nav{
+	width: 100%;
+}
+.menu nav ul{
+	background-color: #003311;
+	overflow: hidden;
+	border-radius: 4px;
+	padding: 0px;
+}
+.menu nav ul li{
+	display: inline-block;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	border-right: #a3a375;
+}
+.active, nav ul li a:hover{
+	background: #33cc33;
+}
+.container img{
+	border-radius: 24px;
+}
+.fotter{
+	height: 250px;
+	width: 100%;
+	background-color: #003311;
+	margin-top: 10px;
+}
+.sitebar{
+	width: 24%;
+	float: left;
+	padding-left: 10px;
+
+}
+.sitebar h3{
+	color: white;
+	margin-left: 30px;
+}
+.sitebar ul li{
+	list-style: none;
+
+}
+.sitebar ul li a{
+	color: #fff;
+	text-decoration: none;
+
+}
+.fotter h6{
+	float: left;
+	padding-top: 45px;
+	color: white;
+	padding-left: 4px;
+}
+.social ul li{
+	list-style: none;
+	float: right;
+	padding-top: 60px;
+	padding-right: 15px;
+
+}
+
+
+@media (max-width: 800px){
+	.menu nav ul li{
+		display: block;
+
+	}
+}
+
+
+
+
+
+
+
+
+.body_content{
+	margin: 0 auto;
+	width: 1250px;
+	background-color: #fff;
+	border-top: 1px solid black;
+	margin-top: 20px;
+}
+.Who_we_are{
+	width: 600px;
+	padding:10px;
+	float: left;
+	display:inline-block;
+
+}
+.Who_we_are h2{
+	font-family: Arial;
+	color: #454340;
+	
+}
+.Who_we_are p{
+	font-family: Calibri;
+	text-align: justify;
+	
+}
+.abut_us{
+	padding-left: 25px;
+	width: 600px;
+	float: left;
+	display:inline-block;
+	
+}
+.our_promise{
+	padding-top: 30px;
+	width: 1250px;
+	overflow: hidden;
+}
+.our_promise h2{
+	font-family: arial;
+	padding-left: 5px;
+	color: #454340;
+}
+.Genuine_Products{
+	width: 400px;
+	float: left;
+	display: inline-block;
+}
+.Genuine_Products img{
+	padding-top:30px; 
+	padding-left:70px;
+}
+.Genuine_Products h3{
+	text-align: center;
+	color: #F89908;
+}
+.Genuine_Products p{
+	text-align: justify;
+	font-family:Calibri;
+	padding:5px; 
+}
+.Secure_Payments{
+	width: 400px;
+	float: left;
+	display: inline-block;
+	padding-left: 10px;
+}
+.Secure_Payments img{
+	padding-top:30px; 
+	padding-left:70px;
+}
+.Secure_Payments h3{
+	text-align: center;
+	color: #F89908;
+}
+.Secure_Payments p{
+	text-align: justify;
+	font-family:Calibri;
+	padding:5px; 
+}
+.Secure_Payments a{
+	text-decoration: none;
+	color: #F89908;
+}
+.Easy_Returns{
+	width: 400px;
+	float: left;
+	display: inline-block;
+	padding-left: 10px;
+}
+.Easy_Returns img{
+	padding-top:30px; 
+	padding-left:70px;
+}
+.Easy_Returns h3{
+	text-align: center;
+	color: #F89908;
+}
+.Easy_Returns p{
+	text-align: justify;
+	font-family:Calibri;
+	padding:5px; 
+}
+.Easy_Returns a{
+	text-decoration: none;
+	color: #F89908;
+}
+.Our_Journey h2{
+	font-family: arial;
+	padding-left: 5px;
+	color: #454340;
+}
+.Our_Journey img{
+	width: 1250px;
+
+}
